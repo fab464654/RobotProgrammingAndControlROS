@@ -1,8 +1,8 @@
 # _Robot Programming and Control (assignments)_
 
-<img src="docImages\hw.png" alt="hw" style="zoom: 50%;" />
+<img src="docImages/hw.png" alt="hw" style="zoom: 50%;" />
 
-![b1_slide1](docImages\b1_slide1.png)
+![b1_slide1](docImages/b1_slide1.png)
 
 - Use cylinders or boxes to model the different links
 - Use different colors at least for horizontal and vertical links
