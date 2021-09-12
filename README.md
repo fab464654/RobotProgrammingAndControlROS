@@ -65,7 +65,7 @@ Information about running topics and services:
 ### How to launch the _inverse kinematics demo_:
 
 ```sh
-sh catkin_ws/src/homework_b1/launch/launchInverseKinematics.sh  ```
+sh catkin_ws/src/homework_b1/launch/launchInverseKinematics.sh 
 ```
 
 Similarly to the previous demo, a shell script is launched. It allows to open 4 terminals and launch:
