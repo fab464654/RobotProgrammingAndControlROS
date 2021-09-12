@@ -1,3 +1,3 @@
 # RobotProgrammingAndControlROS
 
-![Drag Racing](Dragster.jpg)
+![Immagine](0_Amazonite_1.jpg)
