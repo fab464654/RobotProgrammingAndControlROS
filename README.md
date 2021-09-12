@@ -1,8 +1,8 @@
 # _Robot Programming and Control (assignments)_
 
-<img src="\docImages\hw.png" alt="hw" style="zoom: 50%;" />
+<img src="docImages\hw.png" alt="hw" style="zoom: 50%;" />
 
-![b1_slide1](\docImages\b1_slide1.png)
+![b1_slide1](docImages\b1_slide1.png)
 
 - Use cylinders or boxes to model the different links
 - Use different colors at least for horizontal and vertical links
@@ -13,7 +13,7 @@
 
 ### Characterization of the SCARA's workspace:
 
-<img src="\docImages\b1_scaraWorkspace.png" alt="scaraWorkspace" style="zoom: 50%;" />
+<img src="docImages\b1_scaraWorkspace.png" alt="scaraWorkspace" style="zoom: 50%;" />
 
 ### Introduction:
 
@@ -21,7 +21,7 @@ First of all the URDF was implemented (following along with the ROS tutorial htt
 
 Then the direct.py and inverse.py scripts were developed. They are used to retrieve the direct or inverse kinematics of the robot's end effector, given the right parameters. In particular the "rosrun" command allows to start the respective ROS node. While the node is running, a service can be launched in order to pass the required parameters, perform the computation and get back the direct/inverse kinematics results.
 
-### SCARA's structure:<img src="\docImages\b1_frames.jpg" alt="b1_frames" style="zoom: 50%;" />
+### SCARA's structure:<img src="docImages\b1_frames.jpg" alt="b1_frames" style="zoom: 50%;" />
 
 ### How to launch the _direct kinematics demo_:
 
@@ -42,25 +42,25 @@ To notice that only 5 joint angles are provided to the directKinematics call. Th
 
 The SCARA's urdf visualization and the joint_state_publisher GUI:
 
-| ![b1_screen2](\docImages\b1_screen2.png) | ![b1_screen7](\docImages\b1_screen7.png) |
+| ![b1_screen2](docImages\b1_screen2.png) | ![b1_screen7](docImages\b1_screen7.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 Minimum and maximum SCARA's extention:
 
-| ![b1_screen12](\docImages\b1_screen12.png) | ![b1_screen13](\docImages\b1_screen13.png) |
+| ![b1_screen12](docImages\b1_screen12.png) | ![b1_screen13](docImages\b1_screen13.png) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 Direct kinematics computation:
 
-![b1_screen8](\docImages\b1_screen8.png)
+![b1_screen8](docImages\b1_screen8.png)
 
-![b1_screen10](\docImages\b1_screen10.png)
+![b1_screen10](docImages\b1_screen10.png)
 
 
 
 Information about running topics and services:
 
-![b1_screen9](\docImages\b1_screen9.png)
+![b1_screen9](docImages\b1_screen9.png)
 
 ### How to launch the _inverse kinematics demo_:
 
@@ -77,13 +77,13 @@ Similarly to the previous demo, a shell script is launched. It allows to open 4 
 
 ### Screenshots of the running demo:
 
-![b1_screen6](\docImages\b1_screen6.png)
+![b1_screen6](docImages\b1_screen6.png)
 
-![b1_screen5](\docImages\b1_screen5.png)
+![b1_screen5](docImages\b1_screen5.png)
 
 Information about running topics and services:
 
-![b1_screen4](\docImages\b1_screen4.png)
+![b1_screen4](docImages\b1_screen4.png)
 
 
 
@@ -91,9 +91,9 @@ Information about running topics and services:
 
 
 
-![b2_slide](\docImages\b2_slide.png)
+![b2_slide](docImages\b2_slide.png)
 
-![b2_slide2](\docImages\b2_slide2.png)
+![b2_slide2](docImages\b2_slide2.png)
 
 ### Introduction:
 
@@ -118,12 +118,12 @@ This way, a shell script is launched. It allows to open 4 terminals and launch:
 
 ur5 planning and execution of the (G.) command:
 
-### ![b2_screen1](\docImages\b2_screen1.png)
+### ![b2_screen1](docImages\b2_screen1.png)
 
 ur5 planning and execution of the (H.) command. A trajectory is planned and executed, afterwards the green obstacle is added. So, a new collision-free trajectory is planned and executed:
 
-### ![b2_screen3](\docImages\b2_screen3.png)
+### ![b2_screen3](docImages\b2_screen3.png)
 
 ur5 planning and execution of the (I.) command. A violet object is also attached to the end effector:
 
-![b2_screen2](\docImages\b2_screen2.png)
+![b2_screen2](docImages\b2_screen2.png)
