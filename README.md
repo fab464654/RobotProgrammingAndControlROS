@@ -21,6 +21,8 @@ First of all the URDF was implemented (following along with the ROS tutorial htt
 
 Then the direct.py and inverse.py scripts were developed. They are used to retrieve the direct or inverse kinematics of the robot's end effector, given the right parameters. In particular the "rosrun" command allows to start the respective ROS node. While the node is running, a service can be launched in order to pass the required parameters, perform the computation and get back the direct/inverse kinematics results.
 
+To perform direct and inverse kinematics computation, the KDL library was used: https://github.com/ros/kdl_parser/tree/noetic-devel/kdl_parser_py ; http://wiki.ros.org/kdl_parser.
+
 ### SCARA's structure:<img src="docImages/b1_frames.jpg" alt="b1_frames" style="zoom: 50%;" />
 
 ### How to launch the _direct kinematics demo_:
