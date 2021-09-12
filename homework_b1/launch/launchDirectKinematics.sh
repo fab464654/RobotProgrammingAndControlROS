@@ -1,0 +1,10 @@
+#!/bin/sh
+
+gnome-terminal -- /bin/sh -c 'sleep 0.5; echo Launching the RViz environment for the designed SCARA robot...; roslaunch homework_b1 display.launch model:='catkin_ws/src/homework_b1/urdf/scara.urdf'; exec bash'
+
+gnome-terminal -- /bin/sh -c 'sleep 5; echo Launching the direct.py script to compute direct kinematics...; rosrun homework_b1 direct.py; exec bash'
+
+gnome-terminal -- /bin/sh -c  'sleep 6; echo To call the directKinematics service you should provide joint angles in the following manner:; echo Example: rosservice call /directKinematics -- 0.5 -0.2 0.2 0.5 0.35; exec bash'
+
+gnome-terminal -- /bin/sh -c  'sleep 10; echo Show some information about active TOPICS:; rostopic list; echo; echo Show some information about active SERVICES:; rosservice list; exec bash'
+
